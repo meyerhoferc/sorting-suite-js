@@ -6,6 +6,6 @@ describe('bubble sort', function() {
     var unsorted = [2, 0, 1, 3, 4, 5];
     var expected = [0, 1, 2, 3, 4, 5];
     var result = bubbleSort(unsorted);
-    assert.equal(result, expected);
+    assert.deepEqual(result, expected);
   });
 });
